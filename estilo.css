@@ -1,0 +1,132 @@
+    * {
+        margin: 4px;
+        background-color: Gainsboro;
+    }
+    
+    .logo {
+        position: absolute;
+        left: 25px;
+        top: 25px;
+    }
+    /* .sacola {
+        background-image: url(img/sacola.png);
+        background-repeat: no-repeat;
+        background-position: top right;
+        font-size: 14px;
+        padding-right: 30px;
+        text-align: left;
+        padding-top: 5px;
+        padding-bottom: 1;
+    }*/
+    
+    #busca {
+        background-color: green;
+        padding-bottom: 50px;
+        padding-left: 825px;
+        padding-top: 15px;
+    }
+    
+    .menu-desktop {
+        padding-left: 380px;
+    }
+    
+    nav ul#menu li {
+        list-style-type: none;
+        display: inline;
+    }
+    
+    nav ul#menu li a {
+        padding: 10px 20px;
+        color: blue;
+        display: inline-block;
+        margin-right: -3px;
+        font-family: Roboto, sans-serif;
+        font-size: 90%;
+        letter-spacing: 0.60;
+        text-decoration: none;
+        border: 1px solid #e7e7e7;
+        background-color: #f3f3f3;
+    }
+    
+    .banner img {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .form1 {
+        margin-right: 10px;
+        color: slateblue;
+        float: left;
+    }
+    
+    .form1 ul {
+        list-style-type: none;
+        margin: 5px;
+        padding: 0;
+    }
+    
+    .form1 h2 {
+        color: brown;
+        padding-left: 10px;
+    }
+    
+    nav li ul {
+        display: none;
+    }
+    
+    nav ul li a {
+        color: blue;
+        text-decoration: none;
+    }
+    
+    nav li:hover ul {
+        display: block;
+    }
+    /*nav ul ul li {
+    background-color: red;
+}*/
+    
+    nav li li a:before {
+        content: ' - ';
+    }
+    /*Parte dos relogios*/
+    
+    main {
+        margin: 0;
+        width: 1060px;
+        margin-left: 265px;
+    }
+    
+    main section.relogio {
+        font-family: Roboto, sans-serif;
+        width: 342px;
+        float: left;
+        background-color: GhostWhite;
+        box-shadow: 0 0 10px #555;
+        border-radius: 10px;
+    }
+    
+    main section.relogio img {
+        width: 70%;
+        max-height: 300px;
+        object-fit: cover;
+        object-position: top center;
+        margin-left: 55px;
+    }
+    
+    main section.relogio p {
+        text-align: center;
+        padding: 5%;
+        margin-top: 2%;
+        color: black;
+        font-size: 90%;
+    }
+    
+    main section.relogio a {
+        display: block;
+        text-align: center;
+        background-color: Gainsboro;
+        color: black;
+        padding: 3%;
+        text-decoration: none;
+    }
